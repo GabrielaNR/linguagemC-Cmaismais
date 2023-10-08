@@ -7,7 +7,8 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <li> Lista de exercícios 01 - Vetores e Matrizes 
 <br>
 <ol>
-<li>Dados dois vetores de tamanho N, faça um algoritmo que informe se os mesmos possuem o mesmo conteúdo.</li>
+<br>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio1.c">Dados dois vetores de tamanho N, faça um algoritmo que informe se os mesmos possuem o mesmo conteúdo.</a> </li>
 </ol>
 </li>
 
