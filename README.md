@@ -5,8 +5,9 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 É considerada a mãe das linguagens modernas. É um pouco difícil comparada às linguagens atuais, mas vou tentar aprender direitinho.
 
 <li> Lista de exercícios 01 - Vetores e Matrizes
+  
 <ol>
-  Dados dois vetores de tamanho N, faça um algoritmo que informe se os mesmos possuem o mesmo conteúdo.
+<li>Dados dois vetores de tamanho N, faça um algoritmo que informe se os mesmos possuem o mesmo conteúdo.</li>
 </ol>
 </li>
 
