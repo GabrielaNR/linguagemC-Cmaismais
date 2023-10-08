@@ -11,6 +11,7 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio2.c">Dado um vetor de caracteres VC, de tamanho N, faça um algoritmo que verifique a palavra armazenada no vetor é um palíndromo (pode ler, indiferentemente, da esquerda para a direita ou vice-versa.).</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio3.c">Dado um vetor de caracteres VC, de tamanho N, faça um algoritmo que informe o total de vogais presentes em VC.</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio4.c">Implemente um algoritmo que verifique se um vetor de inteiros VI, com N inteiros, está em ordem crescente ou não.</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercio05.c">Desenvolva um algoritmo que preencha aleatoriamente um vetor de 20 posições com números entre 1 a 30. Na saída do algoritmo, exiba o maior, menor, média, desvio padrão e variância dos valores.</a></li>
 </ol>
 </li>
 
