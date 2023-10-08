@@ -5,10 +5,10 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 É considerada a mãe das linguagens modernas. É um pouco difícil comparada às linguagens atuais, mas vou tentar aprender direitinho.
 
 <li> Lista de exercícios 01 - Vetores e Matrizes 
-<br>
 <ol>
 <br>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio1.c">Dados dois vetores de tamanho N, faça um algoritmo que informe se os mesmos possuem o mesmo conteúdo.</a> </li>
+<li> <a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio2.c">Dado um vetor de caracteres VC, de tamanho N, faça um algoritmo que verifique a palavra armazenada no vetor é um palíndromo (pode ler, indiferentemente, da esquerda para a direita ou vice-versa.).</a></li>
 </ol>
 </li>
 
