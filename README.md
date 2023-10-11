@@ -14,6 +14,8 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercio05.c">Desenvolva um algoritmo que preencha aleatoriamente um vetor de 20 posições com números entre 1 a 30. Na saída do algoritmo, exiba o maior, menor, média, desvio padrão e variância dos valores.</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio6.c">Faça um algoritmo que construa uma matriz de nome MAT de 10 linhas e 15 colunas contendo números inteiros. Em seguida escreva a soma dos elementos de cada linha e de cada coluna de MAT.</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio7.c">Faça um algoritmo que construa uma matriz 10 por 10 de números reais e depois de construída, colocar o conteúdo de sua diagonal principal dentro de um vetor e depois do vetor montado, imprimir o conteúdo do mesmo.</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio8.c">Faça um programa que gere uma matriz transposta (Matriz transposta é toda a matriz onde
+são trocadas as linhas pelas colunas, ou vice-versa).</a></li>
 </ol>
 </li>
 
