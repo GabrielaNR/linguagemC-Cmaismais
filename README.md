@@ -17,6 +17,7 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio8.c">Faça um programa que gere uma matriz transposta (Matriz transposta é toda a matriz onde
 são trocadas as linhas pelas colunas, ou vice-versa).</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio9.c">Faça um algoritmo que defina uma matriz A[6][6] de inteiros e retorne a soma dos elementos da sua diagonal principal e da sua diagonal secundária.</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio10.c">Dada uma matriz de inteiros Amxn, verificar se existem elementos repetidos em A.</a></li>
 </ol>
 </li>
 
