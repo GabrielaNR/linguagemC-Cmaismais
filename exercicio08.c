@@ -1,24 +1,24 @@
-//Faça um programa que gere uma matriz transposta (Matriz transposta é toda a matriz onde são trocadas as linhas pelas colunas, ou vice-versa)
+//FaÃ§a um programa que gere uma matriz transposta (Matriz transposta Ã© toda a matriz onde sÃ£o trocadas as linhas pelas colunas, ou vice-versa)
 #include <stdio.h>
 #include <locale.h>
 #include <time.h>
 
 int main (void){
     setlocale(LC_ALL, "Portuguese");
-//pedindo ao usuário para informar o número de linhas e colunas da matriz
+//pedindo ao usuÃ¡rio para informar o nÃºmero de linhas e colunas da matriz
     int linhas;
-    printf("Informe o número de linhas da matriz: ");
+    printf("Informe o nÃºmero de linhas da matriz: ");
     scanf("%d", &linhas);
 
     int colunas;
-    printf("Informe o número de colunas da matriz: ");
+    printf("Informe o nÃºmero de colunas da matriz: ");
     scanf("%d", &colunas);
 
 //declarando a matriz e a matriz transposta
     int matriz[linhas][colunas];
     int transposta [colunas][linhas];
 
-//gerando aleatoriamente o conteudo da matriz usando a função rand
+//gerando aleatoriamente o conteudo da matriz usando a funÃ§Ã£o rand
     srand(time(NULL));
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
