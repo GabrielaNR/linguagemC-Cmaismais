@@ -36,7 +36,7 @@ int main (void){
     for(int i = 0; i < LINHAS; i++){
             for(int j = 0; j < COLUNAS; j++){
                 diagonalPrincipal[i] = mat[i][i];  //alimentando o vetor com os valores da matriz
-                index++;
+                i++;
             }
     }
 //imprimindo os itens do vetor diagonalPrincipal
