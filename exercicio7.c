@@ -1,4 +1,4 @@
-//Faça um algoritmo que construa uma matriz 10 por 10 de números reais e depois de construída, colocar o conteúdo de sua diagonal principal dentro de um vetor e depois do vetor montado, imprimir o conteúdo do mesmo
+//FaÃ§a um algoritmo que construa uma matriz 10 por 10 de nÃºmeros reais e depois de construÃ­da, colocar o conteÃºdo de sua diagonal principal dentro de um vetor e depois do vetor montado, imprimir o conteÃºdo do mesmo
 #include <stdio.h>
 #include <locale.h>
 #include <time.h>
@@ -9,13 +9,13 @@
 int main (void){
     setlocale(LC_ALL, "Portuguese");
 
-//inicializando a função rand
+//inicializando a funÃ§Ã£o rand
     srand(time(NULL));
 
 //declarando a matriz
    int mat[LINHAS][COLUNAS];
 
-//preenchendo a matriz com valores aleatórios
+//preenchendo a matriz com valores aleatÃ³rios
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
            mat[i][j] = rand() % 100 + 1;  //entre 1 e 100
@@ -25,24 +25,23 @@ int main (void){
 //para printar a matriz gerada
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
-            printf("%d\t", mat[i][j]);            //usamos i e j para linhas e colunas por convenção. ao estudar matrizes em Geometria Analítica, essa é a notação utilizada.
+            printf("%d\t", mat[i][j]);            //usamos i e j para linhas e colunas por convenÃ§Ã£o. ao estudar matrizes em Geometria AnalÃ­tica, essa Ã© a notaÃ§Ã£o utilizada.
         }
         printf("\n");
     }
 
-//colocando o conteúdo da diagonal principal em um vetor
+//colocando o conteÃºdo da diagonal principal em um vetor
     int diagonalPrincipal[10];      //o vetor possui 10 itens
-    int index = 0;    //esse é o contador do index do vetor diagonalPrincipal
-
+    
     for(int i = 0; i < LINHAS; i++){
             for(int j = 0; j < COLUNAS; j++){
-                diagonalPrincipal[index] = mat[i][j];  //alimentando o vetor com os valores da matriz
+                diagonalPrincipal[i] = mat[i][i];  //alimentando o vetor com os valores da matriz
                 index++;
             }
     }
 //imprimindo os itens do vetor diagonalPrincipal
     printf("\nElementos da diagonal principal: \n");
-    for(int i = 0; i < LINHAS; i++){   //usando a constante linhas ao invés do valor 10
+    for(int i = 0; i < LINHAS; i++){   //usando a constante linhas ao invÃ©s do valor 10
        printf("[%d] \t", diagonalPrincipal[i]);     //o \t serve para printar os itens em forma de tabela
     }
 return 0;
