@@ -1,4 +1,4 @@
-//Dado um vetor de caracteres VC, de tamanho N, faÁa um algoritmo que informe o total de vogais presentes em VC.
+//Dado um vetor de caracteres VC, de tamanho N, fa√ßa um algoritmo que informe o total de vogais presentes em VC.
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
@@ -7,20 +7,20 @@ int main (void){
     setlocale(LC_ALL, "Portuguese");
 //declarando o tamanho do vetor
     int n;
-//pedindo para o usu·rio informar o tamanho do vetor
-    printf("******VerificaÁ„o de Vogais******\n");
+//pedindo para o usu√°rio informar o tamanho do vetor
+    printf("******Verifica√ß√£o de Vogais******\n");
     printf("Digite quantas letras tem a palavra: \n");
     scanf("%d", &n);
-//(+1 para acomodar o caractere  nulo \0) Aqui declaramos o vetor e pedimos para o usu·rio digitar a palavra
+//(+1 para acomodar o caractere  nulo \0) Aqui declaramos o vetor e pedimos para o usu√°rio digitar a palavra
     char palavra[n + 1];
     printf("Digite a palavra: \n");
     scanf("%s", palavra);
 
-//declarando a vari·vel que armazenar· o total de vogais
+//declarando a vari√°vel que armazenar√° o total de vogais
     int totalVogais = 0;
 
 //checando cada letra da palavra usando o for
-//a funÁ„o strlen retorna o tamanho de uma string, e faz parte da biblioteca string.h
+//a fun√ß√£o strlen retorna o tamanho de uma string, e faz parte da biblioteca string.h
     for(int i = 0; i < strlen(palavra) - 1; i++){
         char letra = palavra[i];
 
