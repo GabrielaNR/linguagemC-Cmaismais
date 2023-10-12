@@ -1,4 +1,4 @@
-//Faça um algoritmo que defina uma matriz A[6][6] de inteiros e retorne a soma dos elementos da sua diagonal principal e da sua diagonal secundária.
+//FaÃ§a um algoritmo que defina uma matriz A[6][6] de inteiros e retorne a soma dos elementos da sua diagonal principal e da sua diagonal secundÃ¡ria.
 #include <stdio.h>
 #include <locale.h>
 #include <time.h>
@@ -9,7 +9,7 @@ int main (void){
     setlocale(LC_ALL, "Portuguese");
 
     int matriz [LINHAS][COLUNAS];
-//gerando os números da matriz com a função rand
+//gerando os nÃºmeros da matriz com a funÃ§Ã£o rand
     srand(time(NULL));
      for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
@@ -35,13 +35,13 @@ int main (void){
     for(int i = 0; i < LINHAS; i++){
        printf("[%d] \t", diagonalPrincipal[i]);
     }
-//extraindo os itens da diagonal secundária
+//extraindo os itens da diagonal secundÃ¡ria
     int diagonalSecundaria[6];
     for (int i = 0; i < LINHAS; i++){
             diagonalSecundaria[i] = matriz[i][LINHAS - 1 - i];
         }
 //imprimindo os itens do vetor diagonalSecundaria
-    printf("\nElementos da diagonal secundária: \n");
+    printf("\nElementos da diagonal secundÃ¡ria: \n");
     for(int i = 0; i < LINHAS; i++){
        printf("[%d] \t", diagonalSecundaria[i]);
     }
@@ -50,7 +50,7 @@ int main (void){
     for (int i = 0; i < LINHAS; i++){
         somaPrincipal += diagonalPrincipal[i];
     }
-//somando os itens da diagonal secundária
+//somando os itens da diagonal secundÃ¡ria
     int somaSecundaria = 0;
     for (int i = 0; i < LINHAS; i++){
         somaSecundaria += diagonalSecundaria[i];
@@ -60,7 +60,7 @@ int main (void){
 
 //imprimindo
     printf("Soma da diagonal principal: %d\n", somaPrincipal);
-    printf("Soma da diagonal secundária: %d\n", somaSecundaria);
+    printf("Soma da diagonal secundÃ¡ria: %d\n", somaSecundaria);
     printf("Soma de ambas diagonais: %d\n", somaTudo);
 
 return 0;
