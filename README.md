@@ -20,6 +20,7 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 </li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio11.c">Na teoria dos sistemas, define-se como elemento minimax de uma matriz o menor elemento de uma linha onde se encontra o maior elemento da matriz. Faça um algoritmo que receba uma matriz A[10][10] e retorna o seu elemento minimax, juntamente com a sua posição.</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio12.c">Faça um algoritmo que tenha como entrada uma matriz A[10][10] e tem na sua saída a soma dos elementos acima da diagonal principal.</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/exercicio13.c">Faça um algoritmo que recebe uma matriz A[8][8] de inteiros e retorne a posição do maior elemento da sua diagonal principal. Admita que todos os elementos de A são distintos.</a></li>
 </ol>
 </li>
 
