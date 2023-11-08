@@ -3,7 +3,13 @@ Aqui postarei alguns exercícios feitos usando a linguagem C, do curso de Engenh
 C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela Organização Internacional para Padronização (ISO), criada em 1972 por <b>Dennis Ritchie</b>.<br>
 A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo nível que ainda é utilizada em larga escala), e pode ser usada no desenvolvimento de processadores de texto, SGBDs, Sistemas Operacionais, drivers, etc.
 É considerada a mãe das linguagens modernas, e muito de sua influência pode ser visto em linguagens como Java, C++, C#, Go, PHP, entre outras.<br>
-É uma linguagem <b>Orientada a Objetos</b>.
+
+<li> Lista de exercícios diversos - sem tema definido
+<ul>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_de_senhas.c">Gerador de senhas ou ID's aleatórios</a></li>
+</ul>
+
+</li>
 
 <li> Lista de exercícios 01 - Vetores e Matrizes 
 <ol>
