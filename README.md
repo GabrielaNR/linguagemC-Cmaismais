@@ -6,6 +6,7 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 
 <li> Lista de exercícios diversos - sem tema definido
 <ul>
+<br>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_de_senhas.c">Gerador de senhas ou ID's aleatórios</a></li>
 </ul>
 
