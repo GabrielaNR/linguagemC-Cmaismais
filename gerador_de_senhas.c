@@ -7,55 +7,64 @@
 #include <stdlib.h>
 #include <time.h>
 
-int n;
-void passGen(){
-	int i = 0;
-	int contador = 0; //esse contador é para as vezes que função rand vai rodar
+#define NUMEROS 10                       //declaração das constantes para os arrays de caracteres
+#define LETRAS_PEQUENAS 26
+#define LETRAS_GRANDES 26
+#define ESPECIAIS 18
 
-	srand((time(NULL)));
+void passGen(int n) {    //declarando a função PasswordGenerator
+    int i = 0;           //declarando os contadores      
+    int contador = 0;
 
-	char numeros[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '9'};
-	char letras_pequenas[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	char letras_grandes[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
-	char especiais[18] = {'_', '.', '-', '$', '%', '/', '&', '(', ')', '[', ']', '?', '!', '@', '=', '+', '*', '#'};
-	char senha_ou_id [n]; //vetor para armazenar a senha gerada, com n indíces
+    srand((time(NULL)));     //iniciando a função rand
 
-	contador = rand()%4; //4 vetores de char
+    //aqui decidi usar um array para cada possibilidade de caractere. possivelmente há um modo mais prático, mas este ficará para a versão 0.3
+    char numeros[NUMEROS] = {'0', '1', '2', '3', '4', '5', '6', '7', '9'};
+    char letras_pequenas[LETRAS_PEQUENAS] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+    char letras_grandes[LETRAS_GRANDES] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+    char especiais[ESPECIAIS] = {'_', '.', '-', '$', '%', '/', '&', '(', ')', '[', ']', '?', '!', '@', '=', '+', '*', '#'};
 
-	for(i=0;i<n;i++){
-		if(contador == 1){
-			senha_ou_id[i] = numeros[rand()%10];
-			contador = rand()%4;
-		} else if (contador == 2){
-			senha_ou_id[i] = letras_pequenas[rand()%26];
-			contador = rand()%4;
-		} else if (contador == 3){
-			senha_ou_id[i] = letras_grandes[rand()%26];
-			contador = rand()%4;
-		} else{
-			senha_ou_id[i] = especiais[rand()%18];
-			contador = rand()%4;			
-		}
-	}
-	printf("Sua nova senha/ID contendo numeros, letras e simbolos eh: ");
-	for(i=0; i<n; i++){
-		printf("%c", senha_ou_id[i]);
-		}
+    char senha_ou_id[n];       //vetor que aramazenará os caracteres da senha gerada
+
+    contador = rand() % 4;    //inicializando o contador com a função rand, são 4 tipos diferentes de caracteres para serem randomizados
+
+    for (i = 0; i < n; i++) {
+        if (contador == 1) {
+            senha_ou_id[i] = numeros[rand() % NUMEROS];
+            contador = rand() % 4;
+        } else if (contador == 2) {
+            senha_ou_id[i] = letras_pequenas[rand() % LETRAS_PEQUENAS];
+            contador = rand() % 4;
+        } else if (contador == 3) {
+            senha_ou_id[i] = letras_grandes[rand() % LETRAS_GRANDES];
+            contador = rand() % 4;
+        } else {
+            senha_ou_id[i] = especiais[rand() % ESPECIAIS];
+            contador = rand() % 4;
+        }
+    }
+
+    printf("Sua nova senha/ID contendo numeros, letras e simbolos eh: ");    //um loop for para imprimir a senha gerada
+    for (i = 0; i < n; i++) {
+        printf("%c", senha_ou_id[i]);
+    }
 }
 
-void menu(){
-	printf("|=================================|\n");
-	printf("|-----Password \ ID Generator------|\n");
-	printf("|=================================|\n");
-	printf("Digite aqui um valor inteiro correspondente a quantidade de digitos da senha -> ");
-	scanf("%d", &n);
+int menu() {   //função para exibir o menu
+    int n;     //aqui declaramos o n
+    printf("|=================================|\n");
+    printf("|-----Password \\ ID Generator-----|\n");
+    printf("|=================================|\n");
+    printf("|===========Versao 0.2============|\n");
+    printf("Digite aqui um valor inteiro correspondente a quantidade de digitos da senha -> ");   //aqui o usuário diz o tamanho em caracteres da senha desejada
+    scanf("%d", &n);
 
+    return n;     //return
 }
 
-int main(){
-	menu();
-	passGen();
+int main() {           //deixamos a função main com o papel de chamar as outras funções de trabalho
+    int n = menu();    //aqui usamos o int n, dispensando aquela variável global
+    passGen(n);
 
-return 0;
-
+    return 0;
 }
