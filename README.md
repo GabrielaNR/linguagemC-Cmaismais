@@ -5,10 +5,10 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 É considerada a mãe das linguagens modernas, e muito de sua influência pode ser visto em linguagens como Java, C++, C#, Go, PHP, entre outras.<br>
 
 <li> Lista de exercícios diversos - sem tema definido
-<ul>
+<ol>
 <br>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_de_senhas.c">Gerador de senhas ou ID's aleatórios</a></li>
-</ul>
+</ol>
 
 </li>
 
