@@ -9,6 +9,7 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <br>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_de_senhas.c">Gerador de senhas ou ID's aleatórios</a></li>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_matrizes_incas.c">Gerador de matrizes incas</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/ano_bissexto.c">Verifica se um ano é bissexto</a></li>
 </ol>
 <br>
 </li>
