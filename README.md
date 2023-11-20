@@ -8,8 +8,9 @@ A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo n
 <ol>
 <br>
 <li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_de_senhas.c">Gerador de senhas ou ID's aleatórios</a></li>
+<li><a href="https://github.com/GabrielaNR/linguagemC-Cmaismais/blob/main/gerador_matrizes_incas.c">Gerador de matrizes incas</a></li>
 </ol>
-
+<br>
 </li>
 
 <li> Lista de exercícios 01 - Vetores e Matrizes 
