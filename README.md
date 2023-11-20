@@ -1,8 +1,8 @@
 # linguagemC-Cmaismais
-Aqui postarei alguns exercícios feitos usando a linguagem C, do curso de Engenharia de Sistemas, pela disciplina Algoritmos e Estruturas de Dados I.<br>
+<p align="justify">Aqui postarei alguns exercícios feitos usando a linguagem C, do curso de Engenharia de Sistemas, pela disciplina Algoritmos e Estruturas de Dados I.<br>
 C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela Organização Internacional para Padronização (ISO), criada em 1972 por <b>Dennis Ritchie</b>.<br>
 A Linguagem C é uma linguagem de alto nível (talvez a mais próxima do baixo nível que ainda é utilizada em larga escala), e pode ser usada no desenvolvimento de processadores de texto, SGBDs, Sistemas Operacionais, drivers, etc.
-É considerada a mãe das linguagens modernas, e muito de sua influência pode ser visto em linguagens como Java, C++, C#, Go, PHP, entre outras.<br>
+É considerada a mãe das linguagens modernas, e muito de sua influência pode ser visto em linguagens como Java, C++, C#, Go, PHP, entre outras.<br></p>
 
 <li> Lista de exercícios diversos - sem tema definido
 <ol>
